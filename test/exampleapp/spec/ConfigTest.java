@@ -10,4 +10,9 @@ public class ConfigTest {
         Calculadora calc = new Calculadora();
         return (calc.addTwoIntegers(a, b));
     }
+
+    public int getSubstractTestResult(int a, int b) {
+        Calculadora calc = new Calculadora();
+        return (calc.substractTwoIntegers(a, b));
+    }
 }
